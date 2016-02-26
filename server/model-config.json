@@ -31,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "customer": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "order": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
