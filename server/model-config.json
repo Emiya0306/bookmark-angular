@@ -31,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "user": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "bookmark": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
